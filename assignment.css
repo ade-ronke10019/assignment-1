@@ -90,7 +90,7 @@ h1{
     color: brown;
 }
 /**aboutus**/
-.my-container{
+right-section{
     display: flex;
     padding: 20px;
     justify-content: space-between;
