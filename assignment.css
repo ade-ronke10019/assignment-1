@@ -90,12 +90,12 @@ h1{
     color: brown;
 }
 /**aboutus**/
-right-section{
+my-container{
     display: flex;
     padding: 20px;
     justify-content: space-between;
     align-items: center;
-    background-color: goldenrod;
+    background-color: ;
     max-width: 100%;
     gap: 20px;
 }
