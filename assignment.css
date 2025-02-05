@@ -113,3 +113,12 @@ h1{
     color: whitesmoke;
     font-size: 20px;
 }
+.left-section{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    max-width: 100%;
+    gap: 20px;
+}
