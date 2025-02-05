@@ -110,6 +110,7 @@ h1{
 .about-text{
     text-align: center;
     align-items: center;
+    justify-content: center;
     color: whitesmoke;
     font-size: large;;
 }
