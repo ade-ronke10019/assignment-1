@@ -94,19 +94,15 @@ h1{
 /**aboutus**/
 .about-container{
     display: flex;
-    background-color: blanchedalmond;
     padding: 20px;
-    align-items: center;
-}
-.right-section{
-    display: flex;
-    padding: 5px 20px;
     justify-content: space-between;
     align-items: center;
-    max-width: 60%;
+    background-color:burlywood;
+    max-width: 100%;
     gap: 20px;
 }
-.about{
+.aboutus{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -114,18 +110,90 @@ h1{
     font-size: 50px;
     padding: 20px;
 }
-.about-text{
+h2{
+    color: brown;
+    font-size: 50px;
+    display: flex;
     text-align: center;
-    align-items: center;
+    align-items: first baseline;
     justify-content: center;
-    color: coral;
+}
+.about-top{
+    display: flex;
+    text-align: center;
+    align-items:first baseline;
+    justify-content: center;
+    color: solid black;
+    font-size: 50px;
+}
+.about-text{
+    display: flex;
+    text-align: center;
+    align-items: first baseline;
+    justify-content: center;
+    color:black;
     font-size: 20px;
+}
+.right-section{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: top;
+    gap: 20px;
+    float: left;
 }
 .left-section{
     display: flex;
     padding: 20px;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+    float: right;
+}
+/**value**/
+.mission{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
     max-width: 100%;
     gap: 20px;
+}
+.mission-text{
+    text-align: center;
+    align-items:first baseline;
+    justify-content: center;
+    color: solid black;
+    font-size: 50px;
+}
+.mission-baby{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+}
+.value{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    max-width: 100%;
+    gap: 20px;
+}
+.value-text{
+    text-align: center;
+    align-items:first baseline;
+    justify-content: center;
+    color: solid black;
+    font-size: 50px;
+}
+.value-baby{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
 }
